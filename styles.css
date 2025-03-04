@@ -1,2 +1,31 @@
-
-/* Your CSS Code here. */
+h1{
+	text-align: center;
+	text-decoration: underline;
+	text-decoration-color: #2E073F;
+	color: darkblue;
+}
+.moviePic{
+	opacity: 100%;
+	display: block;
+    margin: auto;  /* This centers the image horizontally */
+    width: 30%;
+    height: auto; /* Maintain aspect ratio */
+}
+.movieDetail{
+	position: relative;
+	top: 20px;
+	width: auto;
+	text-align: center;
+	font-size: 20px;
+	padding: 0.5rem;
+	border: 5px solid #AD49E1;
+	margin: 10px;
+	background-color: #2E073F;
+	color: #EBD3F8;
+}
+body{
+	background-color: #EEEEEE;
+}
+.info{
+	font-size: 18px;
+}
